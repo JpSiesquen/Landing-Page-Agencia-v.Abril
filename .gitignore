@@ -1,0 +1,71 @@
+# 🚫 Git Ignore - weblift-landing-page
+
+# === SISTEMAS OPERATIVOS ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Linux
+.directory
+
+# === EDITORES ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+.netrwhist
+
+# JetBrains
+.idea/
+*.iml
+out/
+
+# === DEPENDENCIAS ===
+# Node.js (si usas en futuro)
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log
+
+# === BUILD ===
+dist/
+build/
+*.min.js
+*.min.css
+
+# === LOGS ===
+*.log
+logs/
+
+# === TEMPORALES ===
+*.tmp
+*.bak
+*.swp
+.cache/
+
+# === DOCUMENTOS ===
+# Archivos personales
+.env
+.env.local
+secrets.json
+
+# === ESPECÍFICO DEL PROYECTO ===
+# Backup de archivos originales
+*.backup
+*.orig
