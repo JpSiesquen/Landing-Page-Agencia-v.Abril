@@ -289,7 +289,7 @@ En `styles.css`:
 
 ## 📞 Contacto
 
-**WEBLIFT Studio**  
+**WEBLIFT Agency**  
 📍 Lima, Perú  
 📧 weblift.pe@gmail.com  
 💬 WhatsApp: +51 912 345 678  

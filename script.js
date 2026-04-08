@@ -1,6 +1,6 @@
 const WHATSAPP_CONFIG = {
   phone: '5491123456789',
-  message: 'Hola, vi la landing de WEBLIFT Studio y quiero coordinar una propuesta.'
+  message: 'Hola, vi la landing de WEBLIFT Agency y quiero coordinar una propuesta.'
 };
 
 document.addEventListener('click', (event) => {
@@ -18,6 +18,10 @@ document.addEventListener('click', (event) => {
 });
 
 const revealItems = document.querySelectorAll('[data-reveal]');
+
+revealItems.forEach((item, index) => {
+  item.style.transitionDelay = `${Math.min(index * 90, 300)}ms`;
+});
 
 if ('IntersectionObserver' in window && revealItems.length > 0) {
   const observer = new IntersectionObserver(
